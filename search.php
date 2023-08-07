@@ -1,7 +1,13 @@
-
-<title>Pesquisar orçamentos da mecanica</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.php">
+    <title>Pesquisar orçamentos da mecanica</title>
+</head>
+<body>
     <h3>Pesquisar orçamento</h3>
-        <form action= "pesquisa.php" method="get">
+
+            <form action= "pesquisa.php" method="get">
             <label for= "cliente">Cliente:</label>
             <input type="text" id= "cliente" name="cliente"><br><br>
 
@@ -16,3 +22,5 @@
             
             <input type="submit" value="Pesquisar Orçamento">
     </form>
+</body>
+</html>
